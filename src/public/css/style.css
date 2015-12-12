@@ -1,0 +1,32 @@
+
+.carousel-indicators {
+  margin-bottom: -10px;
+}
+
+.carousel-indicators li,
+.carousel-indicators .active{
+  margin-left: 2.5px;
+}
+
+.portfolio-box {
+  cursor: pointer;
+}
+
+.work-desc,
+.work-link {
+  margin-top: 10px;
+}
+
+// BOOTSTRAP-MODAL
+
+@media only screen and (min-width : 1000px) and (max-width : 1400px) {
+  .modal-dialog {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width : 1400px) {
+  .modal-dialog {
+    width: 900px;
+  }
+}

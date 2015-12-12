@@ -1,0 +1,51 @@
+[
+  {
+    "href": "1",
+    "name": "manakinproducts.com",
+    "type": "E-commerce Website",
+    "img": ["manakinproducts_1.png", "manakinproducts_2.png", "manakinproducts_3.png", "manakinproducts_4.png"],
+    "description": "This website is an E-Commerce site, which represent an Amazon seller's brand.\nit was created using Django web framework, and plain HTML, CSS and JS (using Jquery).\nthe site contains a Blog, Products, Contact and About sections.",
+    "link": "http://manakinproducts.com"
+  },
+  {
+    "href": "2",
+    "name": "omerturner.me",
+    "type": "Portfolio Website",
+    "img": ["omerturner_me_1.png", "omerturner_me_2.png", "omerturner_me_3.png"],
+    "description": "",
+    "link": ""
+  },
+  {
+    "href": "3",
+    "name": "Reda Niman",
+    "type": "Endurance Athlete",
+    "img": ["3.jpg", "4.jpg"],
+    "description": "",
+    "link": ""
+  },
+  {
+    "href": "4",
+    "name": "Magnus Jorgenson",
+    "type": "CrossFitter",
+    "img": ["4.jpg"],
+    "description": "",
+    "link": ""
+  },
+  {
+    "href": "5",
+    "name": "Liz Vasques",
+    "type": "Weight Lifter",
+    "img": ["5.jpg"],
+    "description": "",
+    "link": ""
+  },
+  {
+    "href": "6",
+    "name": "Fit Fittington",
+    "type": "CrossFitter",
+    "img": ["6.jpg"],
+    "description": "",
+    "link": ""
+  }
+]
+  
