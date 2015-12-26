@@ -17,6 +17,10 @@
   margin-top: 10px;
 }
 
+.work-link {
+  margin-right: 10px;
+}
+
 // BOOTSTRAP-MODAL
 
 @media only screen and (min-width : 1000px) and (max-width : 1400px) {
