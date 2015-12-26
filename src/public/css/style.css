@@ -17,23 +17,14 @@
   margin-top: 10px;
 }
 
+.work-desc p {
+  font-size: 1em;
+}
+
 .work-link {
   margin-right: 10px;
 }
 
-// BOOTSTRAP-MODAL
-
-@media only screen and (min-width : 1000px) and (max-width : 1400px) {
-  .modal-dialog {
-    width: 500px;
-  }
-}
-
-@media only screen and (min-width : 1400px) {
-  .modal-dialog {
-    width: 900px;
-  }
-}
 
 @font-face {
     font-family: 'Mono Social Icons Font';
