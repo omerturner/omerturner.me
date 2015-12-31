@@ -67,7 +67,7 @@ a.symbol {
     text-decoration: none;
 }
 
-.white-anchor {
+.white-anchor, .white-anchor:focus, .white-anchor:visited {
   text-decoration: none;
   color: white;
 }

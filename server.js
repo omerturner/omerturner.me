@@ -1,17 +1,16 @@
-var express = require("express");
-var app = express();
+var express              = require("express"),
+      app                    = express(),
+      bodyParser        = require('body-parser'),
+      mongoose         = require('mongoose'),
+      worksController = require('./server/controller/works-controller');
 
-works = require('./model/works.json');
-
-var worksLists = Object.keys(works).map(function(value) {
-                             return works[value]
-                         });
+mongoose.connect('mongodb://localhost:27017/portfolio');
 
 app.use(express.static(__dirname + "/src"));
+app.use(bodyParser.json());
 
-app.get("/works", function(req, res) {
-    res.json(worksLists)
-});
+//REST API
+app.get('/api/works', worksController.list);
 
 app.listen(3000);
 console.log("Server running on port 3000");
