@@ -12,5 +12,11 @@ app.use(bodyParser.json());
 //REST API
 app.get('/api/works', worksController.list);
 
+app.use(function(err, req, res, next) {
+  console.error(err.stack);
+  res.status(404).send('Page Not Found');
+  res.status(500).send('Something is broken');
+});
+
 app.listen(3000);
 console.log("Server running on port 3000");
