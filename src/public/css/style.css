@@ -67,24 +67,12 @@ a.symbol {
     text-decoration: none;
 }
 
- .white-anchor {
-  text-decoration:none;
+.white-anchor, .white-anchor:focus, .white-anchor:visited {
+  text-decoration: none;
   color: white;
 }
 
-.white-anchor:visited {
-  text-decoration:none;
-  color : inherit;
-  outline: 0;
-}
-
 .white-anchor:hover {
-  text-decoration:none;
+  text-decoration: none;
   color: rgba(255,255,255, .6);
-}
-
-.white-anchor:active  {
-  text-decoration:none;
-  color : inherit;
-  outline: 0;
 }
